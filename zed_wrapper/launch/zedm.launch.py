@@ -29,13 +29,13 @@ def generate_launch_description():
     node_name = 'zed_node'  # Zed Node name
     publish_urdf = 'true'  # Publish static frames from camera URDF
     # Robot base frame. Note: overrides the parameter `pos_tracking.base_frame` in `common.yaml`.
-    base_frame = 'base_link'
+    base_frame = 'link5'
     # Position X of the camera with respect to the base frame [m].
-    cam_pos_x = '0.0'
+    cam_pos_x = '0.07045'
     # Position Y of the camera with respect to the base frame [m].
-    cam_pos_y = '0.0'
+    cam_pos_y = '-0.005'
     # Position Z of the camera with respect to the base frame [m].
-    cam_pos_z = '0.0'
+    cam_pos_z = '-0.006649'
     # Roll orientation of the camera with respect to the base frame [rad].
     cam_roll = '0.0'
     # Pitch orientation of the camera with respect to the base frame [rad].
