@@ -35,7 +35,7 @@ def generate_launch_description():
     # Position Y of the camera with respect to the base frame [m].
     cam_pos_y = '-0.005'
     # Position Z of the camera with respect to the base frame [m].
-    cam_pos_z = '-0.006649'
+    cam_pos_z = '-0.019851'# '-0.005324' #'-0.006649' -0.005324 +
     # Roll orientation of the camera with respect to the base frame [rad].
     cam_roll = '0.0'
     # Pitch orientation of the camera with respect to the base frame [rad].

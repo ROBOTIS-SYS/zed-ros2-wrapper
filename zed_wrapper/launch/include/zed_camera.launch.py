@@ -106,7 +106,7 @@ def generate_launch_description():
 
     declare_pos_z_cmd = DeclareLaunchArgument(
         'cam_pos_z',
-        default_value='-0.016649',
+        default_value='-0.00399',
         description='Position Z of the camera with respect to the base frame.')
 
     declare_roll_cmd = DeclareLaunchArgument(
